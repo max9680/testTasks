@@ -20,8 +20,8 @@ $users = [
 
 takeOldest($users);
 
-# Array (
+ Array (
 
-#     ['name' => 'Rob', 'birthday' => '1975-01-11']
+     ['name' => 'Rob', 'birthday' => '1975-01-11']
 
-# )
+ )
