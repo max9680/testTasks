@@ -15,12 +15,12 @@ function enlargeArrayImage($image)
     $result = [];
     $array = [];
     $count = count($image);
-    for ($i = 0; $i < $count; $i ++) {
+    for ($i = 0; $i < $count; $i++) {
         $result[$i * 2] = $image[$i];
         $result[$i * 2 + 1] = $image[$i];
     }
 
-    for ($i = 0; $i < count($result); $i ++) {
+    for ($i = 0; $i < count($result); $i++) {
         for ($j = 0; $j < count($result[$i]); $j++) {
             $array[$i][$j * 2] = $result[$i][$j];
             $array[$i][$j * 2 + 1] = $result[$i][$j];
